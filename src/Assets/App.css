@@ -1,0 +1,8 @@
+.conteudo {
+  display: flex;
+}
+
+.conteudo_principal {
+  flex-grow: 3;
+  background-color: rgb(255, 254, 196);
+}

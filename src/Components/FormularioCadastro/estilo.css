@@ -1,0 +1,51 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.formulario-cadastro_Div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.formulario-cadastro {
+  flex-grow: 2;
+  z-index: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 40px;
+  background-color: rgb(156, 155, 73);
+}
+
+.formulario-cadastro_input {
+  padding: 4px;
+  border: none;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+.formulario-cadastro_textarea {
+  border: none;
+  margin-bottom: 10px;
+}
+.formulario-cadastro_submit {
+  align-self: flex-end;
+  background-color: rgb(233, 212, 120);
+  border: none;
+  border-radius: 5%;
+  vertical-align: bottom;
+  margin-left: auto;
+  min-width: 5%;
+}
+
+.formulario-cadastro_submit:active {
+  background-color: rgb(190, 167, 61);
+}
+
+.formulario-cadastro_select {
+  align-self: flex-end;
+  border: none;
+  min-width: 88%;
+  min-height: 30px;
+}
